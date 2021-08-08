@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".thread.HandlerActivity">
+
+    <Button
+        android:id="@+id/btn_handler_send1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="HandlerSend1"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_handler_send2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="HandlerSend2"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_handler_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="HandlerPost"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_handler_thread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="HandlerThread"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_handler_intent_foo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="IntentServiceFoo"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_handler_intent_baz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="IntentServiceBaz"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/tv_handler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="null"
+        android:gravity="center"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
